@@ -1,0 +1,182 @@
+[
+	{
+		"day": 13,
+		"dayWeek": "Martes",
+		"date": "13/08/2024",
+		"typeDay": "Prefiestas",
+		"events": [
+			{
+				"time": "12:00 a 14:00",
+				"description": "Parque acuatico en las piscinas"
+			},
+			{
+				"time": "17:00 a 19:00",
+				"description": "Parque acuatico en las piscinas"
+			},
+			{
+				"time": "19:00 a 21:00",
+				"description": "Juegos tradicionales en la plaza y la era de Fuertes"
+			},
+			{
+				"time": "21:00",
+				"description": "Cena Popular"
+			}
+		]
+	},
+	{
+		"day": 14,
+		"dayWeek": "Miercoles",
+		"date": "14/08/2024",
+		"typeDay": "Fiestas",
+		"events": [
+			{
+				"time": "11:00",
+				"description": "Taller de pintura al aire libre para niños"
+			},
+			{
+				"time": "19:30",
+				"description": "CHUPINAZO!"
+			},
+			{
+				"time": "21:30",
+				"description": "Castillo hinchable barredora"
+			},
+			{
+				"time": "22:00",
+				"description": "Inicio de la ronda"
+			},
+			{
+				"time": "00:30 a 05:00",
+				"description": "Discomovil SONIDO 54. A la llegada de la ronda se realizará un BINGO"
+			},
+			{
+				"time": "05:00 a 08:00",
+				"description": "Discomovil cochera. Movemos la fiesta hasta la cochera del Dude para que sigan los mas juerguistas."
+			}
+		]
+	},
+	{
+		"day": 15,
+		"dayWeek": "Jueves",
+		"date": "15/08/2024",
+		"typeDay": "Fiestas",
+		"events": [
+			{
+				"time": "12:00",
+				"description": "Misa en honor a la Virgen. A la salida de misa la Asociación Sta.Quiteria nos obsequiará con su tradicional vermú amenizado por la Ronda d'Agüero."
+			},
+			{
+				"time": "17:00",
+				"description": "Guiñote. El torneo para los más pequeños se realizará en la plaza y los adultos en el Club."
+			},
+			{
+				"time": "18:00",
+				"description": "Torneo de fronton en el camping. Juegos infantiles en la plaza."
+			},
+			{
+				"time": "19:00",
+				"description": "La Ronda d'Agüero visitará la Residencia Virgen del Llano para amenizar la tarde a los residentes y visitantes."
+			},
+			{
+				"time": "20:00",
+				"description": "Primera sesión de baile con la orquesta MADISON. Cuando termine la sesión se hará un BINGO."
+			},
+			{
+				"time": "22:00",
+				"description": "Calderetas en la Era Patia. Trae tu plato y cubierto para poder disfrutarla juntos. Hay que sacar tiquet al de precio de 3€."
+			},
+			{
+				"time": "00:00",
+				"description": "TORO DE FUEGO para los más arriesgados y después VAQUILLA para los más precavidos."
+			},
+			{
+				"time": "00:30 a 05:00",
+				"description": "Segunda sesión de baile con la orquesta MADISON. Durante el descanso se realizará un BINGO."
+			},
+			{
+				"time": "05:00 a 08:00",
+				"description": "Discomovil cochera. Cambiamos de escenario y nos reagrupamos en la cochera del Dude a seguir la fiesta."
+			}
+		]
+	},
+	{
+		"day": 16,
+		"dayWeek": "Viernes",
+		"date": "16/08/2024",
+		"typeDay": "Fiestas",
+		"events": [
+			{
+				"time": "12:30",
+				"description": "Procesión y misa en honor a nuestro Patrón San Roque. A la salida de misa el ayuntamiento nos obsequiará con tortas y vino dulce."
+			},
+			{
+				"time": "19:00",
+				"description": "JOTAS a cargo de la COMPAÑIA ARTISTICA OSCA. Al terminar iniciaremos los actos para dar la bienvenida a los nuevos Agüeranos y homenaje a nuestros mayores."
+			},
+			{
+				"time": "21:00",
+				"description": "Discomovil SONIDO 54. Durante esta sesión se realizará el desfile de disfraces infantiles. Ven disfrazado y tendras premio."
+			},
+			{
+				"time": "00:00",
+				"description": "Toro de fuego y Vaquilla"
+			},
+			{
+				"time": "00:30",
+				"description": "Concurso de disfraces adultos."
+			},
+			{
+				"time": "00:30 a 05:00",
+				"description": "Segunda sesión con la discomovil SONIDO 54. Durante el descanso se realizará el BINGO."
+			},
+			{
+				"time": "05:00 a 08:00",
+				"description": "Dicomovil cochera. A las 08:00 recibiremos a la CHARANGA GARRAMPA"
+			}
+		]
+	},
+	{
+		"day": 17,
+		"dayWeek": "Sábado",
+		"date": "17/08/2024",
+		"typeDay": "Fiestas",
+		"events": [
+			{
+				"time": "08:00",
+				"description": "Recorreremos las calles con la CHARANGA GARRAMPA"
+			},
+			{
+				"time": "12:00",
+				"description": "Concurso de dibujo en la plaza"
+			},
+			{
+				"time": "13:00",
+				"description": "Muestra de Tapas. Contaremos con la CHARANGA GARRAMPA durante el vermú. Encontraréis las bases para la muestra de tapas en la página del saludo de la Asociación Santa Quiteria."
+			},
+			{
+				"time": "18:00",
+				"description": "Concurso de natación. Partido de fútbol en el camping. Concurso de rabino en el Club."
+			},
+			{
+				"time": "20:00",
+				"description": "Primera sesión con la orquesta KRISOL. Al terminar la sesión de se realizará un BINGO."
+			},
+			{
+				"time": "22:00",
+				"description": "Migas en la Era Patia. Trae tu plato y cubierto para poder disfrutarlas juntos. Hay que sacar tiquet al precio de 2€."
+			},
+			{
+				"time": "00:00",
+				"description": "Toro de fuego y fuegos artificiales para despedir las fiestas de San Roque 2024"
+			},
+			{
+				"time": "00:30 a 05:00",
+				"description": "Segunda sesión de baile con la orquesta MADISON. Durante el descanso se realizará el BINGO"
+			},
+			{
+				"time": "05:00 a 08:00",
+				"description": "Discomovil cochera"
+			}
+		]
+	}
+]
