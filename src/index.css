@@ -3,16 +3,21 @@
 @import 'tailwindcss/utilities';
 
 @font-face {
-  font-family: "Gupter-Bold";
-  src: local("Gupter-Bold") url("./assets/fonts/Gupter-Bold.ttf") format("truetype");
+  font-family: "JosefinSlab-Bold";
+  src: local("JosefinSlab-Bold") url("./assets/fonts/JosefinSlab-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gupter-Medium";
-  src: local("Gupter-Medium") url("./assets/fonts/Gupter-Medium.ttf") format("truetype");
+  font-family: "JosefinSlab-Medium";
+  src: local("JosefinSlab-Medium") url("./assets/fonts/JosefinSlab-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gupter-Regular";
-  src: local("Gupter-Regular") url("./assets/fonts/Gupter-Regular.ttf") format("truetype");
+  font-family: "JosefinSlab-Regular";
+  src: local("JosefinSlab-Regular") url("./assets/fonts/JosefinSlab-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JosefinSlab-Light";
+  src: local("JosefinSlab-Light") url("./assets/fonts/JosefinSlab-Light.ttf") format("truetype");
 }

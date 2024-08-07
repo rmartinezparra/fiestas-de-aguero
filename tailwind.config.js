@@ -7,9 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'gupterBold': ['Gupter-Bold'],
-        'gupterRegular': ['Gupter-Regular'],
-        'gupterMedium': ['Gupter-Medium'],
+        'josefinBold': ['JosefinSlab-Bold'],
+        'josefinMedium': ['JosefinSlab-Medium'],
+        'josefinRegular': ['JosefinSlab-Regular'],
+        'josefinLight': ['JosefinSlab-Light'],
       },
       fontSize: {
         'dayNum': '10rem',
