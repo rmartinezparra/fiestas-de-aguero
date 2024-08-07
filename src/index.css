@@ -1,3 +1,18 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: "Gupter-Bold";
+  src: local("Gupter-Bold") url("./assets/fonts/Gupter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gupter-Medium";
+  src: local("Gupter-Medium") url("./assets/fonts/Gupter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gupter-Regular";
+  src: local("Gupter-Regular") url("./assets/fonts/Gupter-Regular.ttf") format("truetype");
+}

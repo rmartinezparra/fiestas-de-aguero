@@ -1,10 +1,9 @@
-import { ReactElement } from 'react';
 import { ContentEventType } from '../../types/types';
 
-const Event = ({ data }: { data: ContentEventType }): ReactElement => {
+const Event = ({ data }: { data: ContentEventType }) => {
 
   return (
-    <div className='border border-solid border-red-600'>
+    <div className=''>
       <h3>{data.time}</h3>
       <p>{data.description}</p>
     </div>

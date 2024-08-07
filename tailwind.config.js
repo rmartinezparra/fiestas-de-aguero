@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'gupterBold': ['Gupter-Bold'],
+        'gupterRegular': ['Gupter-Regular'],
+        'gupterMedium': ['Gupter-Medium'],
+      },
+      fontSize: {
+        'dayNum': '10rem',
+      },
+    },
   },
   plugins: [],
 }
