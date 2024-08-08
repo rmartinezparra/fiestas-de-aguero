@@ -4,14 +4,16 @@ import data from '../../../data/2023.json';
 import ParticlesBackground from '../../particles/ParticlesBackground';
 import { Helmet } from 'react-helmet';
 import Content from '../../Days/Content';
-import LinksV2 from '../../particles/options/LinksV2';
 import Cover from '../../Days/Cover';
+
+//Particles options
+import LinksV2 from '../../particles/options/LinksV2';
 
 const Year2023 = (): ReactElement => {
   const [content] = useState<ContentDayType[]>(data);
 
   return (
-    <div className='flex flex-col bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600'>
+    <div className='flex flex-col'>
       <Helmet>
         <title>Fiestas de Agüero 2023</title>
         <meta name='Fiestas de Agüero 2023' content='2023' />

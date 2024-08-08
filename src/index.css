@@ -21,3 +21,16 @@
   font-family: "JosefinSlab-Light";
   src: local("JosefinSlab-Light") url("./assets/fonts/JosefinSlab-Light.ttf") format("truetype");
 }
+
+html {
+
+}
+
+* {
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Para Chrome, Safari y Opera */
+}
