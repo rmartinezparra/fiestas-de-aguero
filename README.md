@@ -13,8 +13,12 @@ El proyecto se desarrollará utilizando tecnologías web modernas como HTML, CSS
 
 ## Tareas pendientes de terminar.
 
-- [ ] Hacer responsive la página.
+- [X] Hacer responsive la página. (70%)
 - [ ] Terminar de diseñar el componente Nav
+- [X] Añadir indicador de Prefiestas
+- [X] Actualizar el icono del header
+- [ ] Añadir funcionalidad del contexto para poder actualizar el día del Nav
+- [ ] Modificar de forma dinamica el titulo del header con la libreria React Helmet.
 - [ ] Preparar la página de 2023
 - [ ] Hacer que los efectos del fondo sean aleatorios
 - [ ] Adquirir el dominio

@@ -1,5 +1,6 @@
 import { ContentDayType } from '../../types/types';
 import Event from './Event';
+import { DayType } from '../../types/enums.d';
 
 const Day = ({ data }: { data: ContentDayType }) => {
 
@@ -9,6 +10,13 @@ const Day = ({ data }: { data: ContentDayType }) => {
         <div className='w-auto h-auto flex flex-col items-center'>
           <h2 className='text-3xl lg:text-5xl xl:text-8xl font-bold font-josefinBold flex-auto'>{data.day}</h2>
           <h2 className='text-base lg:text-xl xl:text-2xl font-josefinMedium underline underline-offset-4 decoration-1 xl:-mt-5 -mt-2 tracking-wide'>{data.dayWeek}</h2>
+          {
+            data.typeDay === DayType.PREFIESTA && (
+              <div className='w-full'>
+                <h3 className='text-base lg:text-lg xl:text-xl font-josefinLight mt-2 w-full text-center'>{data.typeDay}</h3>
+              </div>
+            )
+          }
         </div>
         <div className='mt-3 lg:mt-5 xl:mt-7'>
           {

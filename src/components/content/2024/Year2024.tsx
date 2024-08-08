@@ -13,7 +13,7 @@ const Year2024 = (): ReactElement => {
   return (
     <div className='flex flex-col bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600'>
       <ParticlesBackground options={LinksV2} />
-      <div className='z-10 text-white'>
+      <div className='z-10 text-white md:space-y-2'>
         {
           content.map((day, index) => (
             <div key={index}>

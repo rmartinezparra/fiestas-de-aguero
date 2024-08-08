@@ -1,6 +1,6 @@
 export enum DayType {
-	PREFIESTA = "Prefiesta",
-	FIESTA = "Fiesta",
+	PREFIESTA = "Prefiestas",
+	FIESTA = "Fiestas",
 }
 
 export enum Year {
