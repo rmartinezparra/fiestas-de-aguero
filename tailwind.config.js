@@ -6,15 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'josefinBold': ['JosefinSlab-Bold'],
-        'josefinMedium': ['JosefinSlab-Medium'],
-        'josefinRegular': ['JosefinSlab-Regular'],
-        'josefinLight': ['JosefinSlab-Light'],
-      },
       fontSize: {
         'dayNum': '10rem',
       },
+    },
+    fontFamily: {
+      'josefinBold': ['JosefinSlab-Bold'],
+      'josefinMedium': ['JosefinSlab-Medium'],
+      'josefinRegular': ['JosefinSlab-Regular'],
+      'josefinLight': ['JosefinSlab-Light'],
     },
   },
   plugins: [],

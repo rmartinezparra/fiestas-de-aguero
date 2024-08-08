@@ -1,11 +1,19 @@
 import { ContentDayType } from '../../types/types';
+import { useContext } from 'react';
 import Event from './Event';
 import { DayType } from '../../types/enums.d';
+import { NavContext } from '../../context/NavContext';
 
 const Day = ({ data }: { data: ContentDayType }) => {
 
+  const { setDayNav } = useContext(NavContext);
+
+  const setDay = () => {
+    setDayNav(data.day);
+  }
+
   return (
-    <section className='w-full min-h-min xl:h-screen flex flex-col justify-center items-center'>
+    <section className='w-full min-h-min xl:h-screen flex flex-col justify-center items-center' onMouseOver={setDay} onPointerEnter={setDay}>
       <div className='min-w-[90%] max-w-[90%] lg:min-w-[80%] lg:max-w-[80%] xl:min-w-[70%] xl:max-w-[70%] 2xl:min-w-[50%] 2xl:max-w-[50%] h-auto flex flex-col p-3'>
         <div className='w-auto h-auto flex flex-col items-center'>
           <h2 className='text-3xl lg:text-5xl xl:text-8xl font-bold font-josefinBold flex-auto'>{data.day}</h2>

@@ -23,6 +23,7 @@ El proyecto se desarrollará utilizando tecnologías web modernas como HTML, CSS
 - [ ] Adquirir el dominio
 - [ ] Buscar hospedaje para la web
 - [X] Añadir portada en cada unos de los años
+- [ ] Solucionar problema con las tipografias en dispositivos moviles
 
 ## Tareas opcionales.
 

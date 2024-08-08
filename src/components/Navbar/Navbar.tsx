@@ -1,18 +1,18 @@
-import { useState } from "react";
+import { useContext } from "react";
+import { NavContext } from "../../context/NavContext";
 
 const Navbar = () => {
-  const [year] = useState<number>(2024);
+  const { yearNav, dayNav } = useContext(NavContext);
 
   return (
-    <nav className='w-full h-auto bg-transparent fixed text-white z-10'>
-      <ul className='flex flex-row p-3'>
-        <div className='flex-1'>
-          <li>{year}</li>
+    <nav className='w-full h-auto bg-transparent fixed text-white z-20 font-josefinMedium text-base lg:text-lg xl:text-xl backdrop-blur-sm'>
+      <ul className='flex flex-row p-5'>
+        <div className='flex-1 text-left'>
+          <li>Fiestas en honor a San Roque {yearNav}</li>
         </div>
-        <div className='flex-1'>
-          <li>Fiestas de Agüero {year}</li>
+        <div className='flex-1 text-right'>
+          <li>Día {dayNav} de Agosto</li>
         </div>
-        <div className='flex-1'>Día 15 de Agosto</div>
       </ul>
     </nav>
   );
