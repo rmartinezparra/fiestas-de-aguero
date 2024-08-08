@@ -4,6 +4,6 @@ export enum DayType {
 }
 
 export enum Year {
-	2023,
-	2024,
+	2023 = 2023,
+	2024 = 2024,
 }

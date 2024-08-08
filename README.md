@@ -18,14 +18,14 @@ El proyecto se desarrollará utilizando tecnologías web modernas como HTML, CSS
 - [X] Añadir indicador de Prefiestas
 - [X] Actualizar el icono del header
 - [ ] Añadir funcionalidad del contexto para poder actualizar el día del Nav
-- [ ] Modificar de forma dinamica el titulo del header con la libreria React Helmet.
-- [ ] Preparar la página de 2023
-- [ ] Hacer que los efectos del fondo sean aleatorios
+- [X] Modificar de forma dinamica el titulo del header con la libreria React Helmet.
+- [X] Preparar la página de 2023
 - [ ] Adquirir el dominio
 - [ ] Buscar hospedaje para la web
-- [ ] Añadir portada en cada unos de los años
+- [X] Añadir portada en cada unos de los años
 
 ## Tareas opcionales.
 
+- [ ] Hacer que los efectos del fondo sean aleatorios
 - [ ] Controlar los errores de las rutas
 - [ ] Incluir galeria con algunos fotos de cada año
