@@ -3,7 +3,7 @@ export enum DayType {
 	FIESTA = "Fiestas",
 }
 
-export enum Year {
+/* export enum Year {
 	2023 = 2023,
 	2024 = 2024,
-}
+} */
