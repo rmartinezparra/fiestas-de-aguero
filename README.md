@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Proyecto Fiestas Aguero
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto tiene como objetivo crear una aplicación web para la gestión de fiestas y eventos organizados por la empresa Fiestas Aguero. La aplicación permitirá a los usuarios ver información sobre los diferentes tipos de fiestas ofrecidas, realizar reservas, y gestionar los detalles de sus eventos.
 
-Currently, two official plugins are available:
+Características principales:
+- Catálogo de fiestas: Los usuarios podrán explorar el catálogo de fiestas disponibles, filtrar por tipo, fecha y ubicación, y ver detalles como el precio, la duración y los servicios incluidos.
+- Reservas: Los usuarios podrán realizar reservas de fiestas seleccionando la fecha, la ubicación y los servicios adicionales deseados. También podrán ver el estado de sus reservas y cancelarlas si es necesario.
+- Gestión de eventos: Los usuarios podrán acceder a un panel de control donde podrán gestionar los detalles de sus eventos, como la lista de invitados, la música y la decoración.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto se desarrollará utilizando tecnologías web modernas como HTML, CSS, JavaScript y frameworks como React.js para el frontend y Node.js para el backend. También se utilizarán bases de datos para almacenar la información de las fiestas y las reservas.
 
-## Expanding the ESLint configuration
+¡Únete a nosotros en este emocionante proyecto y ayúdanos a crear experiencias inolvidables en las fiestas organizadas por Fiestas Aguero!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tareas pendientes de terminar.
 
-- Configure the top-level `parserOptions` property like this:
+- [ ] Hacer responsive la página.
+- [ ] Terminar de diseñar el componente Nav
+- [ ] Preparar la página de 2023
+- [ ] Hacer que los efectos del fondo sean aleatorios
+- [ ] Adquirir el dominio
+- [ ] Buscar hospedaje para la web
+- [ ] Añadir portada en cada unos de los años
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Tareas opcionales.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [ ] Controlar los errores de las rutas
+- [ ] Incluir galeria con algunos fotos de cada año

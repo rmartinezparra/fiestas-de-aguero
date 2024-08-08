@@ -1,9 +1,9 @@
-import { Routes, Route, Navigate, json } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Year2024 from '../content/2024/Year2024';
 import Year2023 from '../content/2023/Year2023';
-import ErrorBoundary from './ErrorBoundary';
 
 const Router = () => {
+
   return (
     <div className='w-full h-full'>
       <Routes>
@@ -12,11 +12,10 @@ const Router = () => {
           <div className='w-full h-full'>
             <Year2024 />
           </div>
-        } errorElement={<Navigate to='/2024' />} />
-        {/* <Route path='/2023' element={<Year2023 />} /> */}
-        <Route errorElement={<ErrorBoundary />} action={() => { throw json({}) }} />
+        } />
+        <Route path='/2023' element={<Year2023 />} />
       </Routes>
-    </div>
+    </div >
   );
 }
 

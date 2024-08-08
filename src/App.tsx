@@ -8,7 +8,7 @@ const App = () => {
     <LayoutMain>
       <Router />
     </LayoutMain>
-  )
+  );
 }
 
 export default App
