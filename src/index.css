@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
 @font-face {
   font-family: "JosefinSlab-Bold";
   src: local("JosefinSlab-Bold") url("./assets/fonts/JosefinSlab-Bold.ttf") format("truetype");

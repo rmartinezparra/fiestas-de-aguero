@@ -15,6 +15,7 @@ export default {
       'josefinMedium': ['JosefinSlab-Medium'],
       'josefinRegular': ['JosefinSlab-Regular'],
       'josefinLight': ['JosefinSlab-Light'],
+      'josefin': ['Josefin Slab']
     },
   },
   plugins: [],
