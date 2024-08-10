@@ -12,10 +12,11 @@ import LinksV2 from '../../particles/options/LinksV2';
 
 const Year2023 = (): ReactElement => {
   const [content] = useState<ContentDayType[]>(data);
-  const { setYearNav } = useContext(NavContext);
+  const { setYearNav, setDayNav } = useContext(NavContext);
 
   useEffect(() => {
     setYearNav(2023);
+    setDayNav(14);
   });
 
   return (
