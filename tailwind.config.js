@@ -11,10 +11,6 @@ export default {
       },
     },
     fontFamily: {
-      'josefinBold': ['JosefinSlab-Bold'],
-      'josefinMedium': ['JosefinSlab-Medium'],
-      'josefinRegular': ['JosefinSlab-Regular'],
-      'josefinLight': ['JosefinSlab-Light'],
       'josefin': ['Josefin Slab']
     },
   },
